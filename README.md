@@ -4,7 +4,7 @@ A digital car dashboard (Kombiinstrument) that shows vehicle data received over 
 Every value on screen is decoded from CAN frames defined in a **DBC** file. Nothing is
 passed to the display directly, just as in a real cluster ECU.
 
-![Cluster at 105 km/h](docs/cluster_drive.png)
+![Driving the cluster with the keyboard](docs/cluster_demo.gif)
 
 ## Architecture
 
@@ -38,7 +38,7 @@ passed to the display directly, just as in a real cluster ECU.
 - Seat-belt reminder: steady at standstill, flashing above 20 km/h
 - Fault injection while running: mute the ABS frame, set an engine fault
 
-![ABS frame lost](docs/cluster_abs_fault.png)
+
 
 ## Run
 

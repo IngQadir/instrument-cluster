@@ -1,0 +1,4 @@
+pygame-ce>=2.5
+python-can>=4.3
+cantools>=39
+pytest>=7
